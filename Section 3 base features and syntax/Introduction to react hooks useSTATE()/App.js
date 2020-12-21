@@ -25,7 +25,7 @@ const switchNameHandler = () => { setPersonState( {
 
   	}
   )
-  // in React hooks when manipulating the state , in react hooks you have to manually add other objects such as otherValue as it setting state in hooks repalces the previous state where as in class bassed components you they merge the contents so you dont have to manually add othervalue object 
+  // In React hooks when manipulating the state , you have to manually add other objects such as otherValue as  setting state in hooks replaces the previous state where as in class bassed components, you  merge the contents so you dont have to manually add othervalue object 
   }
 
    
