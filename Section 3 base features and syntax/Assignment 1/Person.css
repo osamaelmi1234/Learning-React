@@ -1,0 +1,12 @@
+.twoPara {
+	font-size: 26px;
+	border: 1px solid #eee;
+	box-shadow: 0 2px 3px solid #ccc;
+	margin: 14px;
+	}
+
+ body {
+ 	margin:auto;
+	text-align: center;
+	width:60%;
+ }
