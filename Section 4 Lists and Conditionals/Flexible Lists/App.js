@@ -1,3 +1,5 @@
+Line 31 and Line 66 making it more flexible it allows each input to manually change its name and updates , Flexible Lists
+
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
