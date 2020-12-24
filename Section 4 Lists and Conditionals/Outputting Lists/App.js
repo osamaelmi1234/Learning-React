@@ -1,3 +1,4 @@
+ Using map Method to Output List Line 66
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
@@ -19,8 +20,7 @@ class App extends Component {
     // DONT DO THIS this.state.persons[0].age = "24"
     this.setState( { 
     persons: [
-   
-   { name:newName, age: 24} , {name:"Abdi" , age: 22}, {name: "Amin" , age: 21}
+    { name:newName, age: 24} , {name:"Abdi" , age: 22}, {name: "Amin" , age: 21}
              
              ]
     }
@@ -63,7 +63,11 @@ this.setState({showPersons : !doesShow});
           {this.state.persons.map(person => {
             return <Person name={person.name} age={person.age}/>
           })}
-        
+        // This is equal to writing <Person name={this.state.persons[0].name age={this.state.persons[0].age}/>
+                                    <Person name={this.state.persons[1].name age={this.state.persons[1].age}/>
+                                    <Person name={this.state.persons[2].name age={this.state.persons[2].age}/>
+                                     
+                                    
         </div> );
     }
     return (
