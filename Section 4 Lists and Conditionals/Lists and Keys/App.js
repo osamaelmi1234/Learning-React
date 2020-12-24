@@ -1,3 +1,5 @@
+//Lists and Keys give state an id property line 11 and add key property iwth value of id Line 63
+
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
