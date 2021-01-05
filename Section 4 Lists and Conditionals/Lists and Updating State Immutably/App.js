@@ -14,7 +14,7 @@ class App extends Component {
   showPersons : false
 
   }
-  
+  //personIndex is equal to index that was passed as a argument in the deletePersonHandler function for the click property in <Person who passes the index as the argument Line 61
   deletePersonHandler = (personIndex) => {
 
 // const persons = this.state.persons.slice();
