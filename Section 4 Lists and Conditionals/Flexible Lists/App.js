@@ -23,7 +23,7 @@ class App extends Component {
  persons.splice(personIndex, 1);
  this.setState({persons: persons})
   }
-
+//So basically argument "id" which is passed in nameHandlerChanged() is the same as person.id. person is this.state.persons[i],becuase of arr method .map(person => {return <Person/>})
  nameHandlerChanged = (event, id) => {
 const personIndex = this.state.persons.findIndex(p => {
   return p.id === id
