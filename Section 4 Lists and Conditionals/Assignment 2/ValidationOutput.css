@@ -1,0 +1,10 @@
+.Sentence   {
+display: block;
+padding: 16px;
+margin: 0 auto;
+border: 1px solid;
+text-align: center;
+position: relative;
+top: 100px;
+width: 60%;
+} 
