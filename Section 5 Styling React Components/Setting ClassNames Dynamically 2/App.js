@@ -1,3 +1,4 @@
+//Line 73 - 80 setting classnames dynamically so to items makes text red , 1 item makes text red and bold
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
