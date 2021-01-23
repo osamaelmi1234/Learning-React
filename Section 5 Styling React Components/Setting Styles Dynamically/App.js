@@ -1,3 +1,4 @@
+// Styling Dynamicallly line 71 so when u click button background color of button becomes green click again it becomes red
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
