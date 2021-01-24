@@ -1,3 +1,4 @@
+// Line 5 import radium npm install --save radium , Line 57 - 81 adds psuedo selectors and media queries to inline stlye elements when previously we could not
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
