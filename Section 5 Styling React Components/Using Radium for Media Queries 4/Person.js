@@ -1,4 +1,4 @@
-// Adding css to Person.js use classname instead of class and link import css './Person.css' to give it  css styles
+// media queries line 8 - 14,  
 
 import React from 'react';
 import './Person.css';
