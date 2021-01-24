@@ -1,3 +1,4 @@
+// import styled components install style components npm create react component e.g StyleDiv add its css and media queries and return <StyleDiv> inside person component
 import React from 'react';
 import styled from 'styled-components';
 
