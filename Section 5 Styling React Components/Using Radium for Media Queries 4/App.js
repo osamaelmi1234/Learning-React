@@ -1,3 +1,4 @@
+//add styleRoot when adding media queries by mqking a component within a componenet see Person.js file
 import React, { Component } from 'react';
 import './App.css';
 import Person from './Person/Person';
