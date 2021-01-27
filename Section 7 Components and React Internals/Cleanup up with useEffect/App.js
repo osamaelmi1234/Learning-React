@@ -1,3 +1,4 @@
+// line 79 remove cockpit component to see cleanup effect using useeffect() with a second parameter of [],
 import React, { Component } from 'react';
 import Styles from './App.module.css';
 import PersonsList from './PersonsList';
